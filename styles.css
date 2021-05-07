@@ -1,0 +1,92 @@
+/* Universal Styles */
+
+html {
+    background: url('/images/spacex.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+}
+
+/* Header Styles*/
+
+#head {
+    margin-left: 45px;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#navbar a:hover {
+    text-decoration: underline;
+}
+
+#navbar ul {
+    list-style-type: none;
+}
+
+#logo {
+    padding-left: 30px;
+    height: 75px;
+    width: auto;
+}
+
+#menu {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    justify-content: space-around;
+    padding-right: 35px;
+}
+
+/* Body Styles */
+
+#tickets {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 350px;
+}
+
+.routes {
+    background-color: blue;
+   margin: 10px 0px;
+    text-align: center;
+    width: 350px;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer Styles */
+
+footer {
+    color: #fff;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    background-color: #454545;
+    margin-bottom: 0px;
+    text-align: center;
+}
