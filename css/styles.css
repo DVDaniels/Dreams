@@ -13,6 +13,9 @@ html {
 
 #head {
     margin-left: 45px;
+    color: #000000;
+    text-shadow: 2px 2px gray;
+    
 }
 
 #navbar {
@@ -24,6 +27,7 @@ html {
 #navbar a {
     text-decoration: none;
     color: #ffffff;
+    text-shadow: 2px 2px gray;
 }
 
 #navbar a:hover {
@@ -60,14 +64,18 @@ html {
 }
 
 .routes {
-    background-color: blue;
-   margin: 10px 0px;
+    background-color: rgb(0, 0, 63);
+    margin: 10px 0px;
+    padding: 10px;
     text-align: center;
     width: 350px;
     height: auto;
+    border-left: 10px solid gold;
 }
 
-
+.routes h1 {
+    text-shadow: 2px 2px gray;
+}
 
 
 
